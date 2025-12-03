@@ -1,0 +1,23 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    csrf:
+      enabled: true
+server:
+  port: 48153
+
+custom:
+  activeprofileName: dev
+
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    hikari:
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+    h2:
+      console:
+        enabled: true
