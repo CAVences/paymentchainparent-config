@@ -1,4 +1,4 @@
-4springdoc:
+springdoc:
   swagger-ui:
     path: /swagger-ui.html
     csrf:
