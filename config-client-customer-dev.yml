@@ -4,7 +4,7 @@ springdoc:
     csrf:
       enabled: true
 server:
-  port: 48112
+  port: 48151
 
 custom:
   activeprofileName: dev
